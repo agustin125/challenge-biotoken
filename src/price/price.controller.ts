@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { PriceService } from './price.service';
-import { ITokenResponse } from './interfaces/token.interface';
+import { ITokenResponse } from '../interfaces/token.interface';
 
 @Controller()
 export class PriceController {
